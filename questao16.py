@@ -8,4 +8,6 @@ if n > 0:
 elif n == 0:
     print('numero igual a zero')
 else:
+
+    
     print('voce digitou um numero negativo')
