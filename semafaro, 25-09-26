@@ -1,0 +1,14 @@
+cor = input('digite uma cor (verde, amarelo, vermelho):')
+
+
+if cor == 'verde':
+    print('siga em frente')
+
+elif cor == 'amarelo':
+    print('atençao')
+
+elif cor == 'vermelho':
+    print('pare')
+
+else:
+    print('sinal quebrado/ cor desconhecida')
