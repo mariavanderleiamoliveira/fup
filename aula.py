@@ -1,15 +1,18 @@
-nome = input('digite o seu nome: ')
-idade = input(' digite a sua idade: ')
-altura = input('digite a sua altura:')
+ap1 = "7"
+ap2 = "8"
+ap3 = "9"
 
-print('#' * 50)
+p1 = float(ap1)
+p2 = float(ap2)
+p3 = float(ap3)
 
-print(f'nome e {nome}')
-print(f'idade e {idade}')
-print(f'altutra e {altura}')
+resultado = (p1 + p2 + p3) / 3
 
-apelido = input('como gostaria de ser chamado(a)?')
+print(f'a media do aluno foi: {resultado}')
 
-print(f'ola! {apelido}, prazer em te conhecer')
+if resultado >= 7:
+    print('aluno aprovado')
 
-print('_' * 50)
+else:
+    print('aprovado')
+
